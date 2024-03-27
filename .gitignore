@@ -1,0 +1,7 @@
+readme/
+SimpleHttp/bin/
+SimpleHttp/obj/
+
+*.sln
+*.vcxproj
+*.user
