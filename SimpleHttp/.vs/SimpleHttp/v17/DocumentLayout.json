@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Server.c",
               "ToolTip": "E:\\code\\Http-server-with-high-concurrency\\SimpleHttp\\Server.c",
               "RelativeToolTip": "Server.c",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAowH4AAAACAAAA",
+              "ViewState": "AQIAAL4AAAAAAAAAAAAowLIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-03-28T06:15:29.8Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Server.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-27T06:13:52.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T06:13:52.225Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "main.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-03-27T05:41:15.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T05:41:15.423Z"
             }
           ]
         }
