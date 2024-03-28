@@ -1,7 +1,7 @@
 readme/
 SimpleHttp/bin/
 SimpleHttp/obj/
-SimpleHttp/.vs
+SimpleHttp/.vs/
 
 *.sln
 *.vcxproj
