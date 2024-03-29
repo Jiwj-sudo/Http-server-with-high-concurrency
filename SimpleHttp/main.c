@@ -15,6 +15,7 @@ int main(int argc, char* argv[])
 	chdir(argv[2]);
 	// 初始化用于监听的套接字
 	int lfd = initListenFd(port);
+	printf("监听成功!:%d\n", lfd);
 	// 启动服务程序
 	epollRun(lfd);
 	return 0;
