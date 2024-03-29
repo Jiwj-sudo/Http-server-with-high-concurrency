@@ -2,6 +2,9 @@ readme/
 SimpleHttp/bin/
 SimpleHttp/obj/
 SimpleHttp/.vs/
+ReactorHttp/bin/
+ReactorHttp/obj/
+ReactorHttp/.vs/
 
 *.sln
 *.vcxproj
