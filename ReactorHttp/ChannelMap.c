@@ -1,4 +1,5 @@
 ﻿#include "ChannelMap.h"
+#include <string.h>
 
 struct ChannelMap* ChannelMapInit(int size)
 {
@@ -42,7 +43,7 @@ bool makeMapRoom(struct ChannelMap* map, int newSize, int unitSize)
 			return false;
 		}
 		map->list = temp;
-		memset(map[map->size], 0, (curSize - map->size) * unitSize);
+		memset(&map->list[map->size], 0, (curSize - map->size) * unitSize);
 		map->size = curSize;
 	}
 	return true;
