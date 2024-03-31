@@ -52,3 +52,11 @@ int eventLoopRun(struct EventLoop* evLoop);
 int eventActivate(struct EventLoop* evLoop, int fd, int event);
 // 添加任务到任务队列
 int eventLoopAddTask(struct EventLoop* evLoop, struct Channel* channel, int type);
+// 处理任务队列中的任务
+int eventLoopProcessTask(struct EventLoop* evLoop);
+// 处理dispatcher中的节点
+int eventLoopAdd(struct EventLoop* evLoop, struct Channel* channel);
+int eventLoopRemove(struct EventLoop* evLoop, struct Channel* channel);
+int eventLoopModify(struct EventLoop* evLoop, struct Channel* channel);
+// 释放channel
+int destoryChannel(struct EventLoop* evLoop, struct Channel* channel);
