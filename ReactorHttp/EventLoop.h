@@ -45,7 +45,7 @@ struct EventLoop
 };
 
 // 初始化
-struct EventLoop* eventLoopInit(void* name);
+struct EventLoop* eventLoopInit(char* name);
 // 启动反应堆模型
 int eventLoopRun(struct EventLoop* evLoop);
 // 处理被激活的文件fd

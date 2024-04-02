@@ -18,13 +18,13 @@ int readLocalMessage(void* arg)
 	return 0;
 }
 
-struct EventLoop* eventLoopInit(void* name)
+struct EventLoop* eventLoopInit(char* name)
 {
 	struct EventLoop* evLoop = (struct EventLoop*)malloc(sizeof(struct EventLoop));
 	evLoop->isQuit = false;
 	evLoop->threadID = pthread_self();
 	pthread_mutex_init(&evLoop->mutex, NULL);
-	strcpy(evLoop->threadName, name == NULL ? "MainThread" : (char*)name);
+	strcpy(evLoop->threadName, name == NULL ? "MainThread" : name);
 	evLoop->dispatcher = &EpollDispatcher;
 	evLoop->dispatcherData = evLoop->dispatcher->init();
 
